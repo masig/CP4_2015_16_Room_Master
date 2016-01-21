@@ -66,19 +66,12 @@ Adafruit Arduino - Lesson 6. Inputs
 
 *PROJECTOR: ON/OFF ONE BUTTON
 
-/*Taken from http://danthompsonsblog.blogspot.ca/2011/12/arduino-push-button-onoff-example.html
-/* Debounce
-
-Each time the input pin goes from LOW to HIGH (e.g. because of a push-button press), the output pin is toggled from LOW to HIGH or HIGH to LOW. There's a minimum delay between toggles to debounce the circuit (i.e. to ignore noise).
+/* Each time the input pin goes from LOW to HIGH (e.g. because of a push-button press), the output pin is toggled from LOW to HIGH or HIGH to LOW. There's a minimum delay between toggles to debounce the circuit (i.e. to ignore noise).
 
 The circuit:
 LED attached from pin 13 to ground
 pushbutton attached from pin 2 to +5V
-10K resistor attached from pin 2 to ground
-
-This example code is in the public domain.
-
-http://www.arduino.cc/en/Tutorial/Debounce */
+10K resistor attached from pin 2 to ground */
 
 // constants won't change. They're used here to // set pin numbers: const int ProjectorButtonPin = 2; // the number of the pushbutton pin const int ProjectorPin = 13; // the number of the LED pin
 
